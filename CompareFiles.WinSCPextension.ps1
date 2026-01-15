@@ -29,7 +29,7 @@ try
     $tools = (
         ("VS Code", "$pf\Microsoft VS Code\Code.exe"),
         ("ExamDiff Pro", "$pf\ExamDiff Pro\ExamDiff.exe"),
-        ("Beyond Compare", "$pf\Beyond Compare 4\BCompare.exe"),
+        ("Beyond Compare", "$pf\Beyond Compare 5\BCompare.exe"),
         ("KDiff3", "$pf\KDiff3\kdiff3.exe"),
         ("WinMerge", "$pf\WinMerge\WinMergeU.exe"),
         ("TortoiseMerge", "$pf\\TortoiseSVN\bin\TortoiseMerge.exe"),
