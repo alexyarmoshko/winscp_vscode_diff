@@ -11,7 +11,7 @@
 # @require      WinSCP 5.13.4
 # @option       - group "Options"
 # @option         Tool dropdownlist "Select &file comparison tool:" "" ^
-#                     "=Automatic" "ExamDiff Pro" "Beyond Compare" "KDiff3" "WinMerge" ^
+#                     "=Automatic" "ExamDiff Pro" "Beyond Compare 5" "KDiff3" "WinMerge" ^
 #                     "TortoiseMerge" "fc" "VS Code"
 # @optionspage  https://winscp.net/eng/docs/extension_compare_files#options
  
@@ -29,7 +29,7 @@ try
     $tools = (
         ("VS Code", "$pf\Microsoft VS Code\Code.exe"),
         ("ExamDiff Pro", "$pf\ExamDiff Pro\ExamDiff.exe"),
-        ("Beyond Compare", "$pf\Beyond Compare 5\BCompare.exe"),
+        ("Beyond Compare 5", "$pf\Beyond Compare 5\BCompare.exe"),
         ("KDiff3", "$pf\KDiff3\kdiff3.exe"),
         ("WinMerge", "$pf\WinMerge\WinMergeU.exe"),
         ("TortoiseMerge", "$pf\\TortoiseSVN\bin\TortoiseMerge.exe"),
